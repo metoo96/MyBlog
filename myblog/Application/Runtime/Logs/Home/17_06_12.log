@@ -1,0 +1,1890 @@
+[ 2017-06-12T02:45:38+08:00 ] ::1 /myblog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022579s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0637s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2017-06-12T02:45:43+08:00 ] ::1 /myblog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2017-06-12T02:45:47+08:00 ] ::1 /myblog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-06-12T02:45:56+08:00 ] ::1 /myblog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-06-12T02:46:29+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 3 LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `t_art` SET `art_click`='1' WHERE `art_id` = 3 [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2017-06-12T02:46:48+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 3 LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `t_art` SET `art_click`='2' WHERE `art_id` = 3 [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2017-06-12T02:46:53+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `t_art` SET `art_click`='1' WHERE `art_id` = 1 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-06-12T02:47:10+08:00 ] ::1 /myblog/Home/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 5,5   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-06-12T02:47:13+08:00 ] ::1 /myblog/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2017-06-12T02:47:30+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `t_art` SET `art_click`='4' WHERE `art_id` = 2 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0176s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-06-12T02:47:34+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `t_art` SET `art_click`='5' WHERE `art_id` = 2 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0098s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2017-06-12T02:47:38+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `t_art` SET `art_click`='6' WHERE `art_id` = 2 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0169s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2017-06-12T02:47:42+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `t_art` SET `art_click`='7' WHERE `art_id` = 2 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0965s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2017-06-12T02:47:57+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `t_art` SET `art_click`='8' WHERE `art_id` = 2 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2017-06-12T02:48:03+08:00 ] ::1 /myblog/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2017-06-12T02:48:07+08:00 ] ::1 /myblog/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2017-06-12T02:48:12+08:00 ] ::1 /myblog/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2017-06-12T02:48:20+08:00 ] ::1 /myblog/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-06-12T02:48:34+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `t_art` SET `art_click`='9' WHERE `art_id` = 2 [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-06-12T02:48:45+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 3 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `t_art` SET `art_click`='3' WHERE `art_id` = 3 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-06-12T02:55:06+08:00 ] ::1 /myblog/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.1172s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2017-06-12T02:55:11+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 4 LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 4 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2017-06-12T02:55:14+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 3 LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-06-12T02:55:16+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 2 LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-06-12T02:55:19+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-06-12T02:55:25+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `t_art` SET `art_click`='10' WHERE `art_id` = 2 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-06-12T02:55:31+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 3 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `t_art` SET `art_click`='4' WHERE `art_id` = 3 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0077s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-06-12T02:55:48+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2017-06-12T02:55:53+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2017-06-12T02:55:56+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `t_art` SET `art_click`='11' WHERE `art_id` = 2 [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001670s ]
+
+[ 2017-06-12T02:56:02+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2017-06-12T02:56:06+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 3 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `t_art` SET `art_click`='5' WHERE `art_id` = 3 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0089s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2017-06-12T02:56:12+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2017-06-12T02:56:23+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 3 LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `t_art` SET `art_click`='6' WHERE `art_id` = 3 [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0098s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2017-06-12T02:56:29+08:00 ] ::1 /myblog/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2017-06-12T02:58:39+08:00 ] ::1 /myblog/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010193s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002029s ]
+
+[ 2017-06-12T02:58:59+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 3 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `t_art` SET `art_click`='7' WHERE `art_id` = 3 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2017-06-12T02:59:03+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `t_art` SET `art_click`='12' WHERE `art_id` = 2 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0087s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2017-06-12T02:59:09+08:00 ] ::1 /myblog/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0851s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2017-06-12T02:59:13+08:00 ] ::1 /myblog/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-06-12T02:59:16+08:00 ] ::1 /myblog/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2017-06-12T02:59:27+08:00 ] ::1 /myblog/Home/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 5,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2017-06-12T02:59:42+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2017-06-12T02:59:45+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 3 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `t_art` SET `art_click`='8' WHERE `art_id` = 3 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2017-06-12T02:59:54+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `t_art` SET `art_click`='13' WHERE `art_id` = 2 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-06-12T03:00:02+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `t_art` SET `art_click`='14' WHERE `art_id` = 2 [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-06-12T03:00:09+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2017-06-12T03:00:19+08:00 ] ::1 /myblog/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-06-12T03:00:24+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `t_art` SET `art_click`='2' WHERE `art_id` = 1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-06-12T03:01:02+08:00 ] ::1 /myblog/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-06-12T03:01:06+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `t_art` SET `art_click`='3' WHERE `art_id` = 1 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2017-06-12T03:01:07+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `t_art` SET `art_click`='4' WHERE `art_id` = 1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0094s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-06-12T03:01:09+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `t_art` SET `art_click`='5' WHERE `art_id` = 1 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2017-06-12T03:01:14+08:00 ] ::1 /myblog/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2017-06-12T03:04:16+08:00 ] ::1 /myblog/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2017-06-12T03:04:50+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 2 LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 2 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2017-06-12T03:04:59+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2017-06-12T03:06:12+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2017-06-12T03:06:15+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-06-12T03:06:23+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 2 LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 2 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2017-06-12T03:06:26+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 4 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `t_art` SET `art_click`='1' WHERE `art_id` = 4 [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2017-06-12T03:06:51+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2017-06-12T03:07:06+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `t_art` SET `art_click`='15' WHERE `art_id` = 2 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2017-06-12T03:07:12+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0593s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 2 LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 2 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-06-12T03:07:15+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 4 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `t_art` SET `art_click`='2' WHERE `art_id` = 4 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-06-12T03:07:42+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 1 LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2017-06-12T03:07:45+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 3 LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `t_art` SET `art_click`='9' WHERE `art_id` = 3 [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2017-06-12T03:07:50+08:00 ] ::1 /myblog/Home/Cat/catDetail/cat_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_art` WHERE `art_catid` = 2 LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` WHERE `art_catid` = 2 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2017-06-12T03:07:52+08:00 ] ::1 /myblog/Home/Art/artDetail/art_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0698s ]
+SQL: SELECT * FROM `t_art` WHERE `art_id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `t_art` SET `art_click`='3' WHERE `art_id` = 4 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.1015s ]
+NOTIC: [8] Undefined index: art_catid D:\phpStudy\WWW\myblog\Application\Home\Controller\ArtController.class.php 第 14 行.
+SQL: SELECT * FROM `t_cat` WHERE `cat_id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: cat_name D:\phpStudy\WWW\myblog\Application\Runtime\Cache\Home\eca80f747a867b79e708e083aa37d978.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-06-12T03:08:14+08:00 ] ::1 /myblog/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `t_cat` [ RunTime:0.0319s ]
+SQL: SELECT * FROM `t_cat` ORDER BY cat_id desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_art` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_id desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_click desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_art` ORDER BY art_pubtime desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_art` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+

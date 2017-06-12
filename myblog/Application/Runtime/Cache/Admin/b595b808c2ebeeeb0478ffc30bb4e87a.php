@@ -1,0 +1,79 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-language" content="en" />
+	<meta name="description" content="[HERE PASTE YOUR DESCRIPTION]" />
+	<meta name="author" content="Template:TemplatesDock " />
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="/myblog/Public/css/main.css" />
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="/myblog/Public/css/skin.css" />
+	<script type="text/javascript" src="/myblog/Public/cufon-yui.js"></script>
+	<script type="text/javascript">Cufon.replace('h1, h2, h3, h4, h5, h6', {hover:true});</script>
+	<title>zgz博客后台</title>
+</head>
+
+<body>
+<div class="main">
+	<!-- HEADER -->
+	<div id="header" class="box">
+
+		<h3 id="logo">朱国柱 <span>BlogSystem</span>后台管理</h3>
+
+		<!-- NAVIGATION -->
+		<ul id="nav">
+			<li ><a href="<?php echo U('Admin/Index/logout');?>">退出</a></li>
+		</ul>
+		
+	</div> <!-- /header -->
+	
+	<div id="section" class="box">
+
+		<!-- CONTENT -->
+		<div id="content" style="height:auto">
+			<div style="margin:50px 0px 50px 90px">
+				<h3>博客管理操作</h3><!--a标签包含了一些样式表的内容-->
+					<ul id="nav" style="font-size:24px;">
+			        <li ><a href="<?php echo U('Admin/Cat/addCat');?>" style="text-decoration:none">类别添加</a></li>
+			        <li ><a href="<?php echo U('Admin/Cat/listCat');?>" style="text-decoration:none">类别管理</a></li>
+			        <li ><a href="<?php echo U('Admin/Art/addArt');?>"  style="text-decoration:none">文章发布</a></li>
+			        <li ><a href="<?php echo U('Admin/Art/listArt');?>" style="text-decoration:none">文章管理</a></li>
+			        <li ><a href="<?php echo U('Admin/Art/listArt');?>" style="text-decoration:none">文章的评论模块</a></li>
+			        <li ><a href="<?php echo U('Admin/Art/listArt');?>" style="text-decoration:none">关于模块</a></li>
+			        <li ><a href="<?php echo U('Admin/Art/listArt');?>" style="text-decoration:none">留言模块</a></li>
+		            </ul>
+			</div>
+		</div> 
+
+		<!-- SIDEBAR -->
+		<div id="aside">
+					
+		</div> <!-- /aside -->
+
+	</div> <!-- /section -->
+
+</div> <!-- /main -->	
+	
+<!-- FOOTER -->
+<div id="footer">
+	<div class="main box">
+		<p class="f-left">Copyright &copy;&nbsp;2017 朱国柱</p>
+	</div> 
+
+</div> <!-- /footer -->
+
+<!--path-->
+<div style="visibility:hidden;display:none">
+			<div id="loginAjax">
+				<?php echo U('Admin/Index/loginAjax');?>
+			</div>
+			<div id="loginindex">
+			    <?php echo U('Admin/Index/index');?>
+			</div>
+</div>
+<!--Datachuli-->
+        <script type="text/javascript" src="/myblog/Public/js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="/myblog/Public/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+        </script>
+		</body>
+</html>
